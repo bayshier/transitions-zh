@@ -64,11 +64,13 @@ document.readyState === 'complete' ? play() : addEventListener('load', play);
 - **`await generate(...).finished`** 串行播放比并发更从容
 - **try/catch 静默回退**——过渡是锦上添花，任何失败都不该拦住内容
 
-效果预览（真站）：[bayshier.github.io/GYZApp/easin.html](https://bayshier.github.io/GYZApp/easin.html)
+效果预览（真站，打开即播）：**[bayshier.github.io/GYZApp/easin.html](https://bayshier.github.io/GYZApp/easin.html)** 🎬
 
-<!-- TODO: 录屏后替换为
-<video src="./img/demo.mp4" width="720" controls></video>
--->
+> 建议直接打开线上站看——动效是"页面加载"的一部分，任何静态截图都只是它的遗照。
+> 想重播：刷新页面即可；想对照原理，读下面三步实录。
+
+原项目的官方演示：[transitions.dev](https://transitions.dev/)（18 个可交互卡片）与
+[skills/transitions-ui-generation/demo.html](https://github.com/Jakubantalik/transitions.dev/blob/main/skills/transitions-ui-generation/demo.html)（可重播、双模式切换）。
 
 ## 35 个过渡全览（速查表）
 
